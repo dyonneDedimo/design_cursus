@@ -1,0 +1,41 @@
+html 
+{
+    background-color: aliceblue;
+}
+
+p, table, form {
+    background-color: aqua;
+    margin: auto;
+    width: 50%;
+}
+#header li a {
+    color: whitesmoke;
+}
+#header li {
+    display: inline-block;
+    color: cornflowerblue;
+    background-color: gray;
+}
+#header li:hover {
+    background-color: black
+}
+body, header {
+    padding: 5px;
+}
+footer {
+    font-size: 12px;
+    padding: 5px;
+}
+input, button {
+    display: block;
+    margin: 10px;
+}
+button:active {
+    background-color: yellowgreen;
+    color: whitesmoke;
+}
+img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
